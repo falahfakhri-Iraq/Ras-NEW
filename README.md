@@ -20,7 +20,7 @@ pip install -i https://test.pypi.org/simple/ Ras-NEW==0.0.1
 For a manual install get this package:
 
 
-wget https://github.com/falahfakhri-Iraq/Raster.zip
+wget https://github.com/falahfakhri-Iraq/Ras-NEW 
 unzip Raster.zip
 rm Raster.zip
 cd Raster
