@@ -34,7 +34,7 @@ python setup.py install
 Example
 =======
 
-´´´python
+'''python
 
 # Import the required library
 
@@ -63,7 +63,6 @@ print(jp2_bands.JP2_Tabel)
 # Convert all the *.jp2 bands within the giving path or directory to *.tiff format 
 
 jp2_bands.S2Converter('D:\TESTS\TEST_NEW', 'D:\TESTS\TEST_NEW\outputFolder')
-
 ´´´
 
    
