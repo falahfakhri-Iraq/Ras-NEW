@@ -14,13 +14,12 @@ Installation
 
 Fast install:
 
-´´´
-pip install Raster
-´´´
+pip install -i https://test.pypi.org/simple/ Ras-NEW==0.0.1
+
 
 For a manual install get this package:
 
-´´´
+
 wget https://github.com/falahfakhri-Iraq/Raster.zip
 unzip Raster.zip
 rm Raster.zip
@@ -28,14 +27,14 @@ cd Raster
 ´´´
 
 Install the package:
-´´´
+
 python setup.py install 
-´´´   
+ 
 
 Example
 =======
 
-```python
+´´´python
 
 # Import the required library
 
