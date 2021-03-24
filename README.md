@@ -34,36 +34,36 @@ python setup.py install
 Example
 =======
 
-'''python
+python
 
-# Import the required library
+ Import the required library
 
 from sentinel2 import S2_JP2tiff_Converter as S
 
-# Get the number & Dataframe table of Sentinel 2 images within the giving path or directory
+Get the number & Dataframe table of Sentinel 2 images within the giving path or directory
 
 Senti_number = S.Counter('D:\TESTS\TEST_NEW')
 
-# Print out the number of Sentinel 2 within the giving path
+Print out the number of Sentinel 2 within the giving path
 
 print(Senti_number.count)
 
-# Print out the Dataframe table of Sentinel2 images 
+Print out the Dataframe table of Sentinel2 images 
 
 print(Senti_number.Senti2_Tabel)
 
-# Get the total number of the *.jp2 bands 
+ Get the total number of the *.jp2 bands 
 
 jp2_bands = S.BandsJP2('D:\TESTS\TEST_NEW')
  
-# Print out the Dataframe table of the *.jp2 bands
+Print out the Dataframe table of the *.jp2 bands
 
 print(jp2_bands.JP2_Tabel)
 
-# Convert all the *.jp2 bands within the giving path or directory to *.tiff format 
+ Convert all the *.jp2 bands within the giving path or directory to *.tiff format 
 
 jp2_bands.S2Converter('D:\TESTS\TEST_NEW', 'D:\TESTS\TEST_NEW\outputFolder')
-´´´
+
 
    
     
