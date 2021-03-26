@@ -34,9 +34,11 @@ python setup.py install
 Example
 =======
 
-python
+### Usage
 
- Import the required library
+```
+
+Import the required library
 
 from sentinel2 import S2_JP2tiff_Converter as S
 
@@ -64,6 +66,6 @@ print(jp2_bands.JP2_Tabel)
 
 jp2_bands.S2Converter('D:\TESTS\TEST_NEW', 'D:\TESTS\TEST_NEW\outputFolder')
 
-
+```
    
     
