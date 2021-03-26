@@ -9,9 +9,8 @@ And count the S2 images and jp2 bands within the folder.
 
 The code is Python 3.
 
-Installation
-============
-
+### Installation
+```
 Fast install:
 
 pip install -i https://test.pypi.org/simple/ Ras-NEW==0.0.1
@@ -24,12 +23,18 @@ wget https://github.com/falahfakhri-Iraq/Ras-NEW
 unzip Raster.zip
 rm Raster.zip
 cd Raster
-´´´
+
 
 Install the package:
 
 python setup.py install 
- 
+```
+### Features
+
+- Find out and present the number of S2*.SAFE within the folders as dataframe file.
+- Find out and present the number of B*.jp files within the S2.*SAFE folder as dataframe file.
+- convert the *.jp bands to *.tif
+
 
 ### Usage Example
 
