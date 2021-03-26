@@ -31,10 +31,7 @@ Install the package:
 python setup.py install 
  
 
-Example
-=======
-
-### Usage
+### Usage Example
 
 ```
 
